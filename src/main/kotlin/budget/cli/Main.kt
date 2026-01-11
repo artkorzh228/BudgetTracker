@@ -10,7 +10,7 @@ fun main(){
 
 fun createTransaction(
     id: String = "tx-123",
-    type: TransactionType = TransactionType.INCOME, // Допустим, у вас есть такой enum
+    type: TransactionType = TransactionType.INCOME,
     amount: Double = 100.0,
     category: String = "Food",
     timestamp: Instant = Instant.parse("2025-01-01T00:00:00Z"),
